@@ -18,7 +18,7 @@ import ProtectedRoute from "./ProtectedRoute";
 
 function App() {
   const [loggedIn, setIsLoggedIn] = useState(false);
-  const [authorizationUserEmail, setAuthorizationUserEmail] = useState();
+  const [authorizationUserEmail, setAuthorizationUserEmail] = useState('');
 
   const [cards, setCards] = useState([]);
   const [currentUser, setCurrentUser] = useState({});
